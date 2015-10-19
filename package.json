@@ -1,7 +1,7 @@
 {
     "name": "node-pipe2",
     "description": "exposes the pipe2 system call for building unix pipelines/filters",
-    "homepage": "https://github.com/bpowers/node-gyp",
+    "homepage": "https://github.com/bpowers/node-pipe2",
     "keywords": [
 	"pipe2",
 	"unistd",
@@ -14,7 +14,7 @@
     "main": "index.js",
     "repository": {
 	"type": "git",
-	"url": "https://github.com/bpowers/node-gyp"
+	"url": "https://github.com/bpowers/node-pipe2"
     },
     "scripts": {
         "configure": "node-gyp configure",
