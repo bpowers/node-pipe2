@@ -1,6 +1,6 @@
 {
     "name": "node-pipe2",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "description": "exposes the pipe2 system call for building unix pipelines/filters",
     "homepage": "https://github.com/bpowers/node-pipe2",
     "keywords": [

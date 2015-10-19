@@ -23,7 +23,7 @@ NAN_METHOD(pipe2) {
 	v8::Local<v8::Function> cb = info[0].As<v8::Function>();
 
 	// TODO: cleanup (close) on error
-	int err = pipe2(pipefd, 0); // O_NONBLOCK ?
+	int err = pipe(pipefd);
 	if (err) {
 		v8::Local<v8::Value> jsErr = Nan::New(err);
 		Nan::MakeCallback(Nan::GetCurrentContext()->Global(), cb, 1, &jsErr);
