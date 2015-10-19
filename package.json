@@ -1,6 +1,5 @@
 {
     "name": "node-pipe2",
-    "version": "0.1.0",
     "description": "exposes the pipe2 system call for building unix pipelines/filters",
     "homepage": "https://github.com/bpowers/node-gyp",
     "keywords": [
