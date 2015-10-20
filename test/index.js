@@ -2,7 +2,7 @@
 // Use of this source code is governed by the MIT
 // license that can be found in the LICENSE file.
 
-var pipe2 = require('../');
+var pipe2 = require('../').pipe2;
 var assert = require('assert');
 
 
